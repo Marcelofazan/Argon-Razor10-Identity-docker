@@ -76,7 +76,7 @@ A aplicação ficará disponivel em **https://localhost:44308/**
 
 Para primeiro acesso usuario: **admin@argon.com** senha: **Secret1+**
 
-#### 🔍 Docker Postgres 
+#### 🔍 Docker no Postgres 
 Para verificar se a database **creativeTim** está no docker acesse o banco com os commandos, para verificar as tabelas. 
 
 
@@ -98,7 +98,9 @@ docker exec -it argon-dashboard-asp-net-master-db-1 psql -U postgres
 - Caso houver falhas de Erro nos comandos Digite  ; ( ponto e virgula ) e aperte **Enter**.
 - Se você já digitou texto errado na linha anterior, use o atalho **Ctrl + C** para cancelar o comando atual e limpar a linha. Digite o comando completo novamente em uma única linha e finalize com  ; ( ponto e virgula )
 
-- Os Select(s) das tabelas do **Identity Microsoft** podem ser usados no terminal 
+- Os Select(s) das tabelas do **Identity Microsoft** podem ser usados no terminal
+
+VSCode Terminal [4]
 ```bash 
 	SELECT * FROM "AspNetRoles";
 	SELECT * FROM "AspNetUsers";
