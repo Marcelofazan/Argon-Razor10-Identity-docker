@@ -64,6 +64,8 @@ docker-compose down
 
 A aplicação ficará disponivel em **https://localhost:44308/**
 
+Para primeiro acesso usuario: **admin@argon.com** senha: **Secret1+**
+
 #### ⚙️ Configuração - Postgres Docker 
 
 Para verificar se a database **creativeTim** está no docker acesse o banco com os commandos, para verificar as tabelas. 
@@ -102,7 +104,7 @@ docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' argo
 SELECT pg_terminate_backend(pid) FROM pg_stat_activity WHERE datname = 'creativeTim'
 ;
 DROP DATABASE "creativeTim";
-```bash
+```
 
 #### Identity Microsoft ASPNET  
 
